@@ -49,7 +49,7 @@ function display(data) {
   results.innerHTML = "";
 
   const percentange = document.createElement("p");
-  percentange.textContent = `Percentage: ${data.percentPlagiarism}%`;
+  percentange.textContent = `Matched Percentage: ${data.percentPlagiarism}%`;
   results.appendChild(percentange);
 
   data.sources.forEach((source) => {
